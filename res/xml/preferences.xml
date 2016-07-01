@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_positioning" android:key="pref_key_positioning_settings">
+        <CheckBoxPreference android:title="Center map at position" android:key="scroll_to_position_key" android:summary="On/Off" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Turn map automatically" android:key="turn_map_automatically_key" android:summary="On/Off" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Smooth position" android:key="smooth_position_key" android:summary="On/Off" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="User" android:key="user_settings">
+        <EditTextPreference android:title="User name" android:key="user_name" android:summary="User name" android:defaultValue="" android:dialogTitle="Enter user name" />
+        <EditTextPreference android:title="Password" android:key="password" android:summary="Do not edit" android:defaultValue="" android:dialogTitle="Do not edit" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_backend" android:key="@string/pref_key_backend">
+        <EditTextPreference android:title="Login URL" android:key="login_address" android:summary="Login" android:defaultValue="https://services.indooratlas.com/auth" android:dialogTitle="Enter url" />
+        <EditTextPreference android:title="Backend url" android:key="backend_address" android:summary="Backend" android:defaultValue="@string/backed_url" android:dialogTitle="Enter url" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug" android:key="pref_key_debug">
+        <CheckBoxPreference android:title="On-screen debug info" android:key="sensor_values_on_screen_key" android:summary="On/Off" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

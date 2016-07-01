@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/buildingfilter" android:visibility="invisible" android:title="@string/buildingfilter_title" android:showAsAction="ifRoom|collapseActionView" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/ic_menu_search" android:id="@id/search" android:title="@string/search_title" android:showAsAction="ifRoom|collapseActionView" android:actionViewClass="android.widget.SearchView" />
+</menu>

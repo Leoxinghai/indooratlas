@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IndoorAtlas</string>
+    <string name="about_text">IndoorAtlas for Android.</string>
+    <string name="worldmap_view_splash">Welcome to IndoorAtlas app! Please watch the tutorial video on Youtube!</string>
+    <string name="floorplan_view_instructions_text">"Collecting map data:
+
+Please start by walking to a place in the building where you wish to begin your map data collection and click the \"start point\" icon.
+
+Then, please click on the floor plan to select a start point for your path.
+
+You may zoom, rotate and pan the floor plan in order to make it easier to orientate yourself with respect to the floor plan. 
+
+Afterwards, click the same button again and then select another point on the floor plan to indicate the end point of your path. 
+
+Finally, click the record button and walk along the path from the start point to the end point, and click the stop icon.
+
+Please walk at constant speed."</string>
+    <string name="map_path_mode">Mapping</string>
+    <string name="validation_path_mode">Validation</string>
+    <string name="calibrate_title">Calibration</string>
+    <string name="calibrate_splash">Rotate the device around its axes as shown below. Keep the center of the device in place while rotating.</string>
+    <string name="calibrate_begin">Tap to start</string>
+    <string name="calibration_done">Calibration ready.</string>
+    <string name="calibrate_dialog_text">Calibrating...please rotate the device around all axes.</string>
+    <string name="calibrate_restart">Please rotate the device around all axes. Waiting...</string>
+    <string name="calibrate_waiting_android">Waiting for Android internal calibration, please continue figure eight motion...</string>
+    <string name="calibrate_end_toast_text">Calibration done.</string>
+    <string name="calibrate_taking_long">Calibration is taking a long time. Click here to try an alternative calibration method.</string>
+    <string name="bgcalibrate_title">First use</string>
+    <string name="bgcalibrate_splash">Calibrate the device with gentle back and forth movements as shown below.</string>
+    <string name="calibration_failed_mapping_not_allowed">Calibration is taking a long time. It is possible that the sensors of the device are not working properly. You may still try positioning but the accuracy may not be good. Mapping is disabled. Please contact support@indooratlas.com for more information.</string>
+    <string name="bg_calib_restarted">Restarting calibration, try slower movements.</string>
+    <string name="delete_help_splash">Click path to select and delete.</string>
+    <string name="first_point_selection_help_splash">Tap bottom-left icon to start mapping.</string>
+    <string name="first_point_screen_click_help_splash">Tap screen to set start point.</string>
+    <string name="second_point_selection_help_splash">Tap screen to set end point.</string>
+    <string name="second_point_direcly_selection_help_splash">To continue from last point, just tap screen to set end point. Click reset to remove first point.</string>
+    <string name="second_point_screen_click_help_splash">Tap point or path to select it. Selected path can be bent.</string>
+    <string name="record_help_splash">Tap the record button and start walking.</string>
+    <string name="no_segments_to_be_sent">All paths already uploaded to IndoorAtlas.</string>
+    <string name="delete_in_progress">The selected measurement is being deleted...</string>
+    <string name="test_data_collection_mode_selected">Mode: Validation</string>
+    <string name="map_data_collection_mode_selected">Mode: Mapping</string>
+    <string name="test_data_collection_help_splash">"Collecting validation paths:
+
+Start by clicking the \"start point\" icon.
+
+Proceed by clicking at a few points on the screen and the \"confirm point\" icon to mark your validation path. 
+
+Finally, click the record button and walk along the path from the start point to the end point, and click stop icon. 
+
+When you pass a black circle on the validation path, please tap screen to label a check point."</string>
+    <string name="check_point_help">Tap display or click volume button on checkpoints.</string>
+    <string name="check_point_added">Checkpoint</string>
+    <string name="all_check_point_added">All validation path check points already stored.</string>
+    <string name="download_floorplan_image_failed">Downloading floor plan image failed due to a network error. Please retry.</string>
+    <string name="all_paths_deleted">All paths deleted.</string>
+    <string name="synchronizing_backend_segments">Fetching recorded paths from IndoorAtlas Maps...</string>
+    <string name="point_outside_floorplan_toast_text">Point not within floor plan.</string>
+    <string name="test_point_far_from_map_point">Warning: checkpoint should approx. overlap with a map segment!</string>
+    <string name="maximum_measurment_duration_exceeded">Maximum measurement duration exceeded. Please consider splitting your path to multiple sub-paths and record again.</string>
+    <string name="record_button_start_point_title">Start</string>
+    <string name="record_button_end_point_title">End</string>
+    <string name="record_button_add_point_title">Middle</string>
+    <string name="record_button_confirm_point_title">Fix</string>
+    <string name="record_button_record_title">Rec</string>
+    <string name="record_button_stop_title">Stop</string>
+    <string name="switch_mode_test_title">Validate</string>
+    <string name="switch_mode_map_title">Map</string>
+    <string name="experiencing_message">Experiencing latency...</string>
+    <string name="connection_lost_message">Connection lost for a long time. Positioning was reinitialized.</string>
+    <string name="api_could_not_be_created">Could not connect to IndoorAtlas. Please check your network connections. If the problem persists, contact IndoorAtlas suppport.</string>
+    <string name="api_start_positioning_internal_error">Starting positioning failed due to an internal error.</string>
+    <string name="walk_to_fix_message">Walk to get location fix.</string>
+    <string name="init_taking_long_message">Still initializing -- please continue walking.</string>
+    <string name="init_ready_continue_walking">Initialized -- please continue walking to get location fix.</string>
+    <string name="message_buffer_full">Session was stopped because of high network latency.</string>
+    <string name="map_was_not_found">Error in starting positioning. Possibly map has not been generated.</string>
+    <string name="message_parsing_failed_on_server">Error in communicating to IndoorAtlas Maps</string>
+    <string name="switching_to_mobile_hipri">Switching to mobile hipri network...</string>
+    <string name="switching_to_wifi">"Switching to device's default network..."</string>
+    <string name="hipri_experimental">Mobile Hipri is experimental feature and might not work with all devices/networks. Are you sure?</string>
+    <string name="search_title">Search</string>
+    <string name="search_not_available">"We're sorry, Geocoder service is not available in your platform.
+You will not be able to search locations by name."</string>
+    <string name="buildingfilter_title">Filter buildings</string>
+    <string name="buildingfilter_zero_buildings">No buildings found.</string>
+    <string name="no_buildings_found_in_visible_map_area">No buildings found in the visible map area.</string>
+    <string name="select_floor">Select floor</string>
+    <string name="select_floorplan_image">Select floor plan</string>
+    <string name="no_floorplans_to_select">No floor plans uploaded for the selected level</string>
+    <string name="floor_plan_loading">Loading floor plan...</string>
+    <string name="upload_map_data">Storing to IndoorAtlas Maps...</string>
+    <string name="upload_map_or_calibration_failed">Storing calibration to IndoorAtlas Maps failed due to a network error. Please retry.</string>
+    <string name="dump_database_ongoing">Storing database tables to files...</string>
+    <string name="dump_database_done">Storing database tables done.</string>
+    <string name="map_generation_initiated_ok">Map generation started.</string>
+    <string name="map_generation_initiated_failed">Initiating map generation failed due to a network error. Please retry.</string>
+    <string name="map_generation_may_take_several_minutes">"Generating map in the cloud.
+This may take a while, click Back to continue working."</string>
+    <string name="map_generation_continues">Map generation continues in the cloud. You may start positoning after a while.</string>
+    <string name="map_generation_already_ongoing">Map generation ongoing.</string>
+    <string name="map_generation_no_data">No map data.</string>
+    <string name="map_generation_status_response_ok">Map generation status received ok.</string>
+    <string name="map_generation_status_response_failed">Map generation status request failed due to a network error.</string>
+    <string name="segment_properties_dialog_title">Path properties</string>
+    <string name="ida_office_server_address">http://cs.indooratlas.com/ida/</string>
+    <string name="ida2_office_server_address">http://cs2.indooratlas.com/ida2/</string>
+    <string name="ida_cloud_server_address">http://ips.indooratlas.com/ida/</string>
+    <string name="ida_cloud_usa_east_server_address">http://idaps-usa-east.cloudapp.net/ida/</string>
+    <string name="ida_cloud_usa_west_server_address">http://idaps-usa-west.cloudapp.net/ida/</string>
+    <string name="ida_cloud_global_server_address">http://idaps-global.trafficmanager.net/ida/</string>
+    <string name="ida_cloud_asia_east_server_address">http://idaps-asia-east.cloudapp.net/ida/</string>
+    <string name="ida_cloud_asia_southeast_server_address">http://idaps-asia-southeast.cloudapp.net/ida/</string>
+    <string name="ida_cloud_test_server_address">http://ips-test.indooratlas.com/ida/</string>
+    <string name="pref_key_backend">pref_key_connection</string>
+    <string name="pref_title_backend">Connection</string>
+    <string name="pref_key_positioning_settings">pref_key_positioning_settings</string>
+    <string name="pref_title_positioning">Positioning</string>
+    <string name="positioning_server_preference">positioning_server_preference</string>
+    <string name="positioning_server_preference_title">Positioning server</string>
+    <string name="positioning_server_preference_summary">Select the server to use for positioning</string>
+    <string name="positioning_server_default_value">@string/ida_cloud_global_server_address</string>
+    <string name="login_url">https://services.indooratlas.com/auth</string>
+    <string name="backed_url">https://services.indooratlas.com</string>
+    <string name="incorrect_username_or_password">Incorrect username or password.</string>
+    <string name="login_failed_network_timeout">Login failed due to a network timeout.</string>
+    <string name="login_failed_confirming_user_credentials">Error in confirming user credentials.</string>
+    <string name="no_network_connections">No network connections. Please connect to a WiFi network or enable mobile data on your device.</string>
+    <string name="user_name_hint">username or email</string>
+    <string name="password_hint">password</string>
+    <string name="no_network">No network connections. Please connect to a WiFi network or enable mobile data on your device.</string>
+    <string name="sensor_error">Sensor error.</string>
+    <string name="low_sampling_rate">Too low sampling rate in sensor(s) for reliable positioning.</string>
+    <string name="session_timeout">Session has timed out.</string>
+    <string name="internal_error">Internal API error.</string>
+    <string name="no_positioning_connection">Connection to positioning service could not be established.</string>
+    <string name="internal_positioning_service_error">Error in positioning service.</string>
+    <string name="version_mismatch">API version is not supported.</string>
+    <string name="session_error">Session error, please restart positioning.</string>
+    <string name="positioning_denied">Positioning permission denied.</string>
+    <string name="no_positioning_time_left">No positioning time left.</string>
+    <string name="map_not_found">Positioning service could not retrieve map.</string>
+    <string name="session_expired">Session has expired.</string>
+    <string name="motion_mode_not_supported">Selected motion mode is not supported.</string>
+    <string name="signature_mismatch">Signature mismatch.</string>
+    <string name="idauuid_mismatch">IDAuuid mismatch.</string>
+    <string name="bad_message">Bad message.</string>
+    <string name="unauthorized">Session unauthorized.</string>
+</resources>

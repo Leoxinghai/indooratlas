@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@layout/login_main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/loginview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/mc_login_july" android:maxHeight="200.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/logo">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progress_bar_box" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/IDATranslucent">
+                <ProgressBar android:gravity="center" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:indeterminateDrawable="@drawable/my_progress_indeterminate" style="@style/IDATranslucent" />
+            </LinearLayout>
+            <TextView android:textSize="7.0pt" android:textColor="#fff6b51c" android:id="@id/tv_error" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:layout_marginBottom="8.0dip" android:text="" android:layout_below="@id/btn_login" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textColor="@android:color/black" android:id="@id/et_un" android:background="@drawable/login_input_field_states" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:hint="@string/user_name_hint" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textColor="@android:color/black" android:id="@id/et_pw" android:background="@drawable/login_input_field_states" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:hint="@string/password_hint" android:password="true" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textColor="@android:color/white" android:id="@id/btn_login" android:background="@drawable/login_button_states" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:text="Login" android:shadowColor="@android:color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" /> />
+</LinearLayout>
+            <TextView android:textSize="5.0pt" android:textColor="@android:color/white" android:gravity="center" android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="15.0dip" android:text="© 2014 IndoorAtlas  Ltd.  All rights reserved." android:layout_below="@id/tv_error" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

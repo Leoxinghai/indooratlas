@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_bar_icon_startpoint2" android:id="@id/record_button_new" android:title="Start" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/validation_icon_white" android:id="@id/test_path_button_new" android:title="Validate" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/action_bar_icon_clear2" android:id="@id/reset_button_new" android:title="Reset" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/action_bar_icon_send" android:id="@id/upload_button_new" android:title="Generate map" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/icon_positioning_inactive_white" android:id="@id/positioning_onoff_button_new" android:title="Navigate" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/calibrate_with_forced" android:title="Calibrate" android:showAsAction="withText" />
+    <item android:id="@id/delete_all_paths" android:title="Delete all paths" android:showAsAction="withText" />
+    <item android:id="@id/set_connection_type" android:title="Select network" android:showAsAction="withText" />
+    <item android:id="@id/roaming_button_new" android:title="WiFi roaming on/off" android:showAsAction="withText" />
+    <item android:id="@id/synch_paths_with_backend" android:title="Fetch cloud paths" android:showAsAction="withText" />
+    <item android:id="@id/help_button_new" android:title="Help" android:showAsAction="withText" />
+    <item android:id="@id/about_button_new" android:title="About" android:showAsAction="withText" />
+</menu>

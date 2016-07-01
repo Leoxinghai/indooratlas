@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate android:drawable="@drawable/progress_compass_indeterminate_mod_white_ida" android:pivotX="50.0%" android:pivotY="50.0%" style="@style/IDATranslucent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

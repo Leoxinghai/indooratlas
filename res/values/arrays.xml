@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server_names">
+        <item>IDA office server</item>
+        <item>IDA 2 office server</item>
+        <item>IDA cloud server</item>
+        <item>IDA cloud east usa</item>
+        <item>IDA cloud west usa</item>
+        <item>IDA cloud (global)</item>
+        <item>IDA cloud east asia</item>
+        <item>IDA cloud southeast asia</item>
+        <item>IDA cloud TEST</item>
+    </string-array>
+    <string-array name="server_addresses">
+        <item>@string/ida_office_server_address</item>
+        <item>@string/ida2_office_server_address</item>
+        <item>@string/ida_cloud_server_address</item>
+        <item>@string/ida_cloud_usa_east_server_address</item>
+        <item>@string/ida_cloud_usa_west_server_address</item>
+        <item>@string/ida_cloud_global_server_address</item>
+        <item>@string/ida_cloud_asia_east_server_address</item>
+        <item>@string/ida_cloud_asia_southeast_server_address</item>
+        <item>@string/ida_cloud_test_server_address</item>
+    </string-array>
+</resources>

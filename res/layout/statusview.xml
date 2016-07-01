@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/statusview" android:background="#ff1e99af" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="#ff1e99af" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="top" android:id="@id/mapping_mode_field" android:background="#ff1e99af" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="1.0dip" android:text="@string/map_path_mode" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="top" android:id="@id/validation_mode_field" android:background="#ff1e99af" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="1.0dip" android:text="@string/validation_path_mode" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/navigointi_sininen_kierto" />
+    <item android:state_pressed="true" android:drawable="@drawable/navigointi_valkoinen_kierto" />
+    <item android:state_focused="true" android:drawable="@drawable/navigointi_valkoinen_kierto" />
+    <item android:drawable="@drawable/navigointi_sininen_kierto" />
+</selector>

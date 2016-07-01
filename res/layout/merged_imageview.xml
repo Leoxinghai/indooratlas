@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indooratlas.mapcreator.main.IndoorMapView android:id="@id/indoormapview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="top|right|center" android:id="@id/naviButton" android:background="@drawable/navi_button_states" android:visibility="invisible" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/connectionindicator" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/internet_connection_warning_yellow" />
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/bgCalibProgressRedImage" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="23.0dip" android:layout_marginLeft="38.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/calibration_warning" />
+</merge>

@@ -1,0 +1,51 @@
+<configuration>
+    <appender name="GELF" class="me.moocar.logbackgelf.GelfAppender">
+    	<!-- ===================================================================================  -->
+    	<!-- Config of server -->
+        <!-- ===================================================================================  -->
+        
+        <graylog2ServerHost>idalog.cloudapp.net</graylog2ServerHost>
+        <graylog2ServerPort>12201</graylog2ServerPort>
+        <graylog2ServerVersion>0.9.6</graylog2ServerVersion>
+        <chunkThreshold>3000</chunkThreshold>
+        
+        <!-- ============================================================================  -->
+        <!-- Tags shown in the log, see https://github.com/Moocar/logback-gelf#properties  -->
+        <!-- ============================================================================  -->
+        
+        <!-- hostName>IndoorAtlasMobileAndroid</hostName -->
+        
+        <!-- The name of your service. Appears in facility column in graylog2-web-interface. -->
+        <!-- facility>IndoorAtlasMobileAndroid</facility -->
+        <useLoggerName>false</useLoggerName>
+        
+        <useThreadName>false</useThreadName>
+        <useMarker>true</useMarker>
+        
+        <!-- Non-used data ! -->
+        <!-- additionalField>ipAddress:_ip_address</additionalField -->
+        <!-- additionalField>requestId:_request_id</additionalField -->
+        <!-- staticAdditionalField>_node_name:www013</staticAdditionalField -->
+        
+        <includeFullMDC>true</includeFullMDC>
+        
+        <!-- ===================================================================================  -->
+        <!-- Log output formatting, see http://logback.qos.ch/manual/layouts.html#conversionWord  -->
+        <!-- ===================================================================================  -->
+        <messagePattern>%m%rEx</messagePattern>
+        <shortMessagePattern>%.-100(%m%rEx)</shortMessagePattern>
+        
+        
+    </appender>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="GELF" />
+        <!-- ENABLE THIS FOR LOCAL DEBUG -->
+        <!-- appender-ref ref="STDOUT"/ -->
+    </root>
+</configuration>

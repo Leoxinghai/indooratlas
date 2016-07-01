@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="NiceButtonStartColor">#ffe5f0f3</color>
+    <color name="NiceButtonEndColor">#ffe5f0f3</color>
+    <color name="NiceButtonDisabledStartColor">#ffe5f0f3</color>
+    <color name="NiceButtonDisabledEndColor">#ffe5f0f3</color>
+    <color name="NiceButtonBorderColor">#ff1298af</color>
+    <color name="transparent_green_color">#8800ff00</color>
+</resources>
